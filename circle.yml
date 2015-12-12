@@ -3,4 +3,5 @@ machine:
     version: 5.5.9
 test:
   pre:
+    - cp .env.example .env
     - php artisan key:generate
