@@ -55,8 +55,8 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'ubuntu'),
-            'username'  => env('DB_USERNAME', ''),
+            'database'  => env('DB_DATABASE', 'circle_test'),
+            'username'  => env('DB_USERNAME', 'ubuntu'),
             'password'  => env('DB_PASSWORD', ''),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
